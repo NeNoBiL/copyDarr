@@ -10,3 +10,6 @@ push.o : push.cpp
 	g++ -c -g push.cpp
 realize.o: realize.cpp
 	g++ -c -g realize.cpp
+clean:
+	del *.o 
+	del *.exe
