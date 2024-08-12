@@ -37,13 +37,7 @@ void foo(int argc, const char* argv[]){
             else{
                 int val = keys.getVal();
                 int val_front = keys.getVal_front();
-#ifdef DEBUG
-            showArr(arr,size);
-#endif
-            push_back(arr, size, val);
-#ifdef DEBUG
-            showArr(arr,size);
-#endif
+                push_back(arr, size, val);
                 push_front(arr, size, val_front);
                 showArr(arr, size);
             }
